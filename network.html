@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networks</title>
+    <style>
+        ul.no-bullets {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        </style>
+</head>
+<body>
+    <center><h2><u>Network Audit</u></h2></center>
+<ul class="no-bullets">
+    <h3><u>Equipment</u></h3>
+  <li>Switches</li>
+  <li>Routers</li>
+  <li>Firewalls</li>
+  <li>Access Points</li><br>
+  <li><u>Servers:</u></li><br>
+  <li>Domain Controller</li>
+  <li>File Server (File Share)</li>
+  <li>Printer Server</li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<center><h2><u>Network Layout Rules:</u></h2></center>
+<br>
+<br>
+    <ul class="no-bullets">
+        <h3><u>Router / Firewall</u></h3>
+        <br>
+        <li><u>Ports: </u></li>
+        <br>
+        <li>WAN 1 port = Priamry network ISP connection</li>
+        <li>WAN 2 port = secondary network ISP connection (back up line (Failover) )</li>
+        <li>LAN ports (LAN 1 & LAN 2) multiple Local Area Networks configured (on site) </li>
+    </ul>
+    <br>
+    <br>
+    <ul class="no-bullets">
+        <h3><u>Switches</u></h3>
+        <br>
+        <li><u>Ports: </u></li>
+        <br>
+        <li>Port 1 = UPLINK (<u>ONLY</u> First Switch)</li>
+        <li>Port 2 = AP</li>
+        <li>Port 3 = AP</li>
+        <li>Port 4 = AP</li>
+        <li>Port 5 = AP</li>
+        <li>Port 6 = AP</li>
+        <li>Port 7 = </li>
+        <li>Port 8 = </li>
+        <li>Port 9 = </li>
+        <li>Port 10 = </li>
+        <li>Port 11 = </li>
+        <li>Port 12 = </li>
+        <li>Port 13 = </li>
+        <li>Port 14 = </li>
+        <li>Port 15 = </li>
+        <li>Port 16 = </li>
+        <li>Port 17 = </li>
+        <li>Port 18 = </li>
+        <li>Port 19 = </li>
+        <li>Port 20 = Printer Server</li>
+        <li>Port 21 = Domain Controller</li>
+        <li>Port 22 = File Server</li>
+        <li>Port 23 = UPLINK (port 23 will be UPLINK from above switch on PORT 24) </li>
+        <li>Port 24 = UPLINK (From first switch this will go into second switch PORT 23)</li>
+    </ul>
+</body>
+</html>
